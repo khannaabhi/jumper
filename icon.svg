@@ -1,0 +1,16 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="28" fill="#1A1A2E"/>
+  <rect x="18" y="30" width="52" height="6" rx="3" fill="#3A3A5C"/>
+  <rect x="18" y="46" width="38" height="6" rx="3" fill="#3A3A5C"/>
+  <rect x="18" y="62" width="45" height="6" rx="3" fill="#3A3A5C"/>
+  <rect x="18" y="78" width="30" height="6" rx="3" fill="#3A3A5C"/>
+  <rect x="18" y="94" width="42" height="6" rx="3" fill="#3A3A5C"/>
+  <circle cx="88" cy="46" r="10" fill="none" stroke="#E2503A" stroke-width="2.5"/>
+  <circle cx="88" cy="46" r="4.5" fill="#E2503A"/>
+  <line x1="56" y1="49" x2="76" y2="49" stroke="#E2503A" stroke-width="2" stroke-dasharray="3 2"/>
+  <circle cx="88" cy="78" r="10" fill="none" stroke="#E2503A" stroke-width="2.5"/>
+  <circle cx="88" cy="78" r="4.5" fill="#E2503A"/>
+  <line x1="48" y1="81" x2="76" y2="81" stroke="#E2503A" stroke-width="2" stroke-dasharray="3 2"/>
+  <polyline points="88,58 88,63 88,66" stroke="#7C7CFF" stroke-width="2.5" stroke-linecap="round"/>
+  <polyline points="84,63 88,68 92,63" stroke="#7C7CFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

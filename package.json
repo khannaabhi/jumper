@@ -1,6 +1,6 @@
 {
-  "name": "jumper",
-  "displayName": "Breakpoint Jumper",
+  "name": "break-trail",
+  "displayName": "BreakTrail",
   "description": "Navigate quickly between debug breakpoints in any file.",
   "version": "1.0.0",
   "publisher": "khannaabhi",
@@ -21,7 +21,7 @@
     "breakpoint",
     "navigation",
     "debug",
-    "jumper",
+    "trail",
     "shortcut"
   ],
   "repository": {

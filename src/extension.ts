@@ -16,18 +16,19 @@ export function areUrisEqual(uri1: vscode.Uri | undefined, uri2: vscode.Uri | un
 	}
 
 	if (uri1.scheme === 'file') {
+		const isCaseInsensitiveFs = process.platform === 'win32' || process.platform === 'darwin';
 		const normalizeFsPath = (fsPath: string): string => {
 			let normalized = fsPath.replace(/\\/g, '/');
 			while (normalized.endsWith('/') && normalized.length > 1) {
 				normalized = normalized.slice(0, -1);
 			}
-			return normalized;
+			return isCaseInsensitiveFs ? normalized.toLowerCase() : normalized;
 		};
 
 		const path1 = normalizeFsPath(uri1.fsPath);
 		const path2 = normalizeFsPath(uri2.fsPath);
 
-		return path1.toLowerCase() === path2.toLowerCase();
+		return path1 === path2;
 	}
 
 	return uri1.toString() === uri2.toString();
