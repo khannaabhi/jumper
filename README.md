@@ -1,10 +1,10 @@
-# Breakpoint Jumper for VS Code
+# BreakTrail for VS Code
 
-[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/khannaabhi.jumper.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=khannaabhi.jumper)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/khannaabhi.jumper.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=khannaabhi.jumper)
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/khannaabhi.break-trail.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=khannaabhi.break-trail)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/khannaabhi.break-trail.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=khannaabhi.break-trail)
 [![License](https://img.shields.io/github/license/khannaabhi/jumper.svg?style=flat-square)](https://github.com/khannaabhi/jumper/blob/main/LICENSE)
 
-Streamline your debugging flow in Visual Studio Code. **Breakpoint Jumper** allows you to navigate effortlessly between your active debug breakpoints in a file with simple, fast keyboard shortcuts and intuitive editor menu buttons. 
+Streamline your debugging flow in Visual Studio Code. **BreakTrail** allows you to navigate effortlessly between your active debug breakpoints in a file with simple, fast keyboard shortcuts and intuitive editor menu buttons. 
 
 No more scrolling up and down searching for that next breakpoint—just jump straight to it.
 
@@ -21,7 +21,7 @@ No more scrolling up and down searching for that next breakpoint—just jump str
 
 ## Keyboard Shortcuts
 
-Breakpoint Jumper works out of the box with these standard, easy-to-use keybindings:
+BreakTrail works out of the box with these standard, easy-to-use keybindings:
 
 | Action | Windows & Linux | macOS |
 | :--- | :--- | :--- |
@@ -57,7 +57,7 @@ If you prefer mouse navigation, use the dedicated buttons added to your editor t
 
 ## Release Notes
 
-See the [CHANGELOG.md](CHANGELOG.md) for full release history.
+See the [CHANGELOG.md](https://github.com/khannaabhi/jumper/blob/main/CHANGELOG.md) for full release history.
 
 ### 1.0.0
 - Production-ready release.
@@ -69,4 +69,4 @@ See the [CHANGELOG.md](CHANGELOG.md) for full release history.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/khannaabhi/jumper/blob/main/LICENSE).
