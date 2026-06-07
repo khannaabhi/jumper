@@ -1,7 +1,7 @@
 # Breakpoint Jumper for VS Code
 
-[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/your-publisher-placeholder.jumper.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=your-publisher-placeholder.jumper)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/your-publisher-placeholder.jumper.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=your-publisher-placeholder.jumper)
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/khannaabhi.jumper.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=khannaabhi.jumper)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/khannaabhi.jumper.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=khannaabhi.jumper)
 [![License](https://img.shields.io/github/license/khannaabhi/jumper.svg?style=flat-square)](https://github.com/khannaabhi/jumper/blob/main/LICENSE)
 
 Streamline your debugging flow in Visual Studio Code. **Breakpoint Jumper** allows you to navigate effortlessly between your active debug breakpoints in a file with simple, fast keyboard shortcuts and intuitive editor menu buttons. 
