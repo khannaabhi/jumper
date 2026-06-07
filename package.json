@@ -1,0 +1,98 @@
+{
+  "name": "jumper",
+  "displayName": "Breakpoint Jumper",
+  "description": "Navigate quickly between debug breakpoints in any file.",
+  "version": "1.0.0",
+  "publisher": "khannaabhi",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#0f172a",
+    "theme": "dark"
+  },
+  "categories": [
+    "Debuggers",
+    "Other"
+  ],
+  "keywords": [
+    "breakpoint",
+    "navigation",
+    "debug",
+    "jumper",
+    "shortcut"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khannaabhi/jumper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khannaabhi/jumper/issues"
+  },
+  "homepage": "https://github.com/khannaabhi/jumper#readme",
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "jumper.jumpToNextBreakpoint",
+        "title": "Jump to Next Breakpoint",
+        "icon": "$(arrow-down)"
+      },
+      {
+        "command": "jumper.jumpToPrevBreakpoint",
+        "title": "Jump to Previous Breakpoint",
+        "icon": "$(arrow-up)"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "jumper.jumpToNextBreakpoint",
+        "key": "alt+f9",
+        "mac": "alt+f9",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "jumper.jumpToPrevBreakpoint",
+        "key": "shift+alt+f9",
+        "mac": "shift+alt+f9",
+        "when": "editorTextFocus"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "jumper.jumpToPrevBreakpoint",
+          "group": "navigation@10",
+          "when": "editorTextFocus"
+        },
+        {
+          "command": "jumper.jumpToNextBreakpoint",
+          "group": "navigation@20",
+          "when": "editorTextFocus"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.19.20",
+    "@types/vscode": "^1.109.0",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.39.3",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.56.1"
+  }
+}
