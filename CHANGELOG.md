@@ -2,6 +2,11 @@
 
 All notable changes to the "jumper" extension will be documented in this file.
 
+## [1.0.2] - 2026-06-09
+
+### Changed
+- Expanded compatibility to support older VS Code versions (v1.75.0+).
+
 ## [1.0.0] - 2026-06-07
 
 ### Added
